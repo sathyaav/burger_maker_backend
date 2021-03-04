@@ -1,4 +1,4 @@
-package com.cloud.burger.modals;
+package com.cloud.burger.models;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -9,10 +9,12 @@ import lombok.ToString;
 @Setter
 @RequiredArgsConstructor
 @ToString
-public class Address {
-
-	private String country;
+public class Customer {
 	
-	private String street;
-	private String zipCode;
+	private Address address;
+	
+	private String name;
+	
+	private String email;
+	
 }

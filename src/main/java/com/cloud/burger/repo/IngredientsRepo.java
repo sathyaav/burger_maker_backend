@@ -6,7 +6,7 @@ package com.cloud.burger.repo;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-import com.cloud.burger.modals.Ingredients;
+import com.cloud.burger.models.Ingredients;
 
 /**
  * @author sathy

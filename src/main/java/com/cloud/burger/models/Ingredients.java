@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cloud.burger.modals;
+package com.cloud.burger.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

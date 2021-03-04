@@ -1,17 +1,18 @@
-package com.cloud.burger.modals;
+package com.cloud.burger.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
 @RequiredArgsConstructor
 @Document("orders")
+@ToString
 public class Order {
 
 	@Id
@@ -22,5 +23,7 @@ public class Order {
 	private Ingredients ingredients;
 	
 	private Double price;
+	
+	private String timestamp;
 	
 }

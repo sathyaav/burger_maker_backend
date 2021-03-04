@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.cloud.burger.modals.Ingredients;
+import com.cloud.burger.models.Ingredients;
 import com.cloud.burger.repo.IngredientsRepo;
 
 /**
